@@ -1,7 +1,10 @@
 {
   "name": "bip174",
-  "version": "3.0.0-rc.0",
+  "version": "3.0.0-rc.0-beta",
   "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/cjs/lib/psbt.js",
   "module": "src/esm/lib/psbt.js",
   "types": "src/cjs/lib/psbt.d.ts",
@@ -12,7 +15,7 @@
       "require": "./src/cjs/lib/psbt.js"
     }
   },
-  "type": "module",
+  "type": "commonjs",
   "files": [
     "src/cjs/lib",
     "src/esm/lib"
